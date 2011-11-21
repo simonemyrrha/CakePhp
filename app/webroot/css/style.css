@@ -1,0 +1,51 @@
+* {margin:0; padding:0;}
+div:after, ol:after, form:after, ul:after, dl:after{ content:"."; display:block; clear:both; visibility: hidden; height:0; overflow:hidden;}
+
+/* global */
+h1 {}
+h2 { font-size:4em;letter-spacing: -.025em; line-height:1.3em; color:#1e1e1e;}
+h2 em { display: block; height:auto; font-style:normal; color:#be1a62;}
+h2 span { font-size:2em; text-transform: uppercase;	}
+h3{	background: url("../img/stripe-lgtdrk1-s1.png") no-repeat scroll 0 100% transparent;border: medium none !important;font-weight: 100;  text-transform: uppercase;margin: 0 0 30px;
+    padding: 15px 0 16px;}
+h3 span { font-size: 18px; line-height: 24px; color: #be1a62;}
+
+p {}
+
+/* structure */
+html {}
+body {font: normal normal 10px/1.1em arial;background: url("../img/bg1.png")  repeat-x fixed 0 0%, url("../img/bg2.png") repeat fixed 0 50px #BB0005;}
+.header {  padding-bottom: 20px; width:1024px; margin:0 auto; background:#fff;}
+.content { border-top: 1px solid #D2D2D2; padding: 50px 0;width:1024px; margin:0 auto; background:#fff;}
+.wrapper { margin: 0 auto; width:1000px; height:100%; position:relative;}
+
+/* header */
+.logo { cursor:pointer; float:left; }
+.logo a{ font-size:6em;letter-spacing: -.03em;color:#f5f5f5;line-height:1.1em;text-decoration:none;}
+.new { position: absolute;top:30px; right: 0;color:#f5f5f5;font-size:1.4em;line-height:1em;}
+.nav {float:right;position: relative; top: 60px;}
+.nav li { float:left; margin-left:10px;	 list-style:none;}
+.nav li a { display: block; background:#D81E26;padding:5px;color:#fff;font-size:1.4em; line-height:1.1em;text-decoration:none; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.nav li a:hover, .nav li a:focus { color:#D81E26; background:#fff;}
+
+body.home .nav li a.home, body.quem-somos .nav li a.quem-somos, body.como-chegar .nav li a.como-chegar
+{ background:#F69220;color:#FFF;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+
+.facebook{clear: both;float: right;width: 279px;}
+
+.panel {background-color: #FAFAFA; border: 1px solid #E7E7E7; border-radius: 3px 3px 3px 3px;padding:15px;margin-bottom:12px;}
+.title { font-size: 26px; font-weight: bold; letter-spacing: -2px; margin-bottom: 5px;  text-transform: uppercase;}
+.articles, .interactive_art, .design_challenge, .patrocinadores { background: none repeat scroll 0 0 #FAFAFA;border: 1px solid #E7E7E7; border-radius: 3px; margin-bottom: 20px; padding: 20px 15px 0;}
+.articles p, .interactive_art p, .design_challenge p, .patrocinadores p { margin: 0 0 15px !important;}
+.interactive_art, .design_challenge, .patrocinadores { display: inline; float: left; width: 290px;}
+.design_challenge, .patrocinadores {  margin-left: 5px;}
+.interactive_art h2, .design_challenge h2, .articles h2, .patrocinadores h2{ font-size: 20px;}
+
+
+/* header */
+.main-banner { clear:both; margin-bottom:30px;text-align:center;}
+
+/*footer*/
+#rodape{border-top: 1px solid #D2D2D2;font-size: 0.9em; padding: 40px 0 20px;height:100%;position:relative;width:1024px; margin:0 auto; background:#fff;}
+.copy{height: 42px; padding: 8px 60px 0 0;}
+.featured{list-style:none;font-size:20px;margin-top:5px;line-height: 1.2em;margin: 0; padding: 0.25em 0;}
